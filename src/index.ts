@@ -14,10 +14,10 @@ characterSorter.sort();
 console.log(charactersCollection.data);
 
 const linkedList = new LinkedList();
-linkedList.add(500);
-linkedList.add(400);
-linkedList.add(400);
-linkedList.add(100);
+linkedList.add(60);
+linkedList.add(-400);
+linkedList.add(4470);
+linkedList.add(0);
 const listSorter = new Sorter(linkedList);
 listSorter.sort();
 linkedList.print();
