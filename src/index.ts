@@ -4,20 +4,17 @@ import { CharactersCollection } from "./CharactersCollection";
 import { LinkedList } from "./LinkedList";
 
 const numbersCollection = new NumbersCollection([50, 3, -5, 0]);
-const numberSorter = new Sorter(numbersCollection);
-numberSorter.sort();
+numbersCollection.sort();
 console.log(numbersCollection.data);
 
-const charactersCollection = new CharactersCollection("XtYbnMm");
-const characterSorter = new Sorter(charactersCollection);
-characterSorter.sort();
-console.log(charactersCollection.data);
+const characterCollection = new CharactersCollection("abgbeKJOInlkahdoingl");
+characterCollection.sort();
+console.log(characterCollection.data);
 
 const linkedList = new LinkedList();
-linkedList.add(60);
-linkedList.add(-400);
-linkedList.add(4470);
-linkedList.add(0);
-const listSorter = new Sorter(linkedList);
-listSorter.sort();
+linkedList.add(500);
+linkedList.add(-4);
+linkedList.add(38765);
+linkedList.add(-3);
+linkedList.sort();
 linkedList.print();
