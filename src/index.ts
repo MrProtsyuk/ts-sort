@@ -12,3 +12,12 @@ const charactersCollection = new CharactersCollection("XtYbnMm");
 const characterSorter = new Sorter(charactersCollection);
 characterSorter.sort();
 console.log(charactersCollection.data);
+
+const linkedList = new LinkedList();
+linkedList.add(500);
+linkedList.add(400);
+linkedList.add(400);
+linkedList.add(100);
+const listSorter = new Sorter(linkedList);
+listSorter.sort();
+linkedList.print();
